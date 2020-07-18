@@ -5,11 +5,10 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/tv_first_fragment"
+        android:id="@+id/tv_dream_fragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/follow_your_dream"
-        android:textColor="@android:color/holo_green_light"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

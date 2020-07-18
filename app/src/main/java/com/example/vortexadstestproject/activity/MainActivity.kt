@@ -3,7 +3,7 @@ package com.example.vortexadstestproject.activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.vortexadstestproject.R
-import com.example.vortexadstestproject.fragment.FirstFragment
+import com.example.vortexadstestproject.fragment.DreamFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setInitialFragment() {
         supportFragmentManager.beginTransaction().apply {
-            replace(R.id.fragment_container, FirstFragment())
+            replace(R.id.fragment_container, DreamFragment())
             addToBackStack(null)
             commit()
         }
